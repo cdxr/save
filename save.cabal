@@ -1,0 +1,17 @@
+name:                save
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Craig Roche
+maintainer:          cdxr01@gmail.com
+copyright:           Copyright (c) Craig Roche 2013
+category:            Data
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Data.Save, Data.Resource
+  -- other-modules:       
+  build-depends:       base ==4.6.*, pointed ==3.0.*, cereal ==0.3.*, bytestring ==0.10.*
